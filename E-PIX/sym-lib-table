@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/../ExternalLib/Espressif/libraries/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "Logic")(type "KiCad")(uri "${KIPRJMOD}/../ExternalLib/Logic/Logic.kicad_sym")(options "")(descr ""))
+  (lib (name "Conn")(type "KiCad")(uri "${KIPRJMOD}/../ExternalLib/Conn/Conn.kicad_sym")(options "")(descr ""))
+  (lib (name "IMU")(type "KiCad")(uri "${KIPRJMOD}/../ExternalLib/IMU/IMU.kicad_sym")(options "")(descr ""))
+  (lib (name "DM3AT-SF-PEJM5")(type "KiCad")(uri "${KIPRJMOD}/../ExternalLib/Memory/DM3AT-SF-PEJM5.kicad_sym")(options "")(descr ""))
+)
