@@ -1,0 +1,10 @@
+*-backups
+.vscode
+.pio
+*.lck
+production
+~*
+_*
+fp*
+*prl
+*lck

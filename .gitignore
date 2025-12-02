@@ -1,0 +1,5 @@
+*-backups
+.vscode
+.pio
+*.lck
+production

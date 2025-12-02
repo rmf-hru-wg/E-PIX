@@ -1,0 +1,122 @@
+(footprint "BNO055" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -13 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 4f2497bb-e24f-4b58-bf8a-dc35e1ef39d5)
+  )
+  (fp_text value "BNO055" (at 0 -11.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1e593ee1-2be9-4e27-b435-d615604b6252)
+  )
+  (fp_text user "${REFERENCE}" (at 0 -10 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bf29e36b-e1bd-4fda-abee-05198825dc54)
+  )
+  (fp_rect (start -5.5 -9) (end 5.5 9)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 435d7f3c-8f72-4146-87c1-e28fb88c482c))
+  (pad "1" smd custom (at -3.81 -3.81 270) (size 1.7 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.85 0)
+          (xy 0.85 1.69)
+          (xy -0.85 1.69)
+          (xy -0.85 0)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 6ba38577-6b86-4c31-82ef-45bf8136de05))
+  (pad "2" smd custom (at -3.81 -1.27 270) (size 1.7 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.85 0)
+          (xy 0.85 1.69)
+          (xy -0.85 1.69)
+          (xy -0.85 0)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 585f25f6-3adb-4903-bbac-afb1e2c87adf))
+  (pad "3" smd custom (at -3.81 1.27 270) (size 1.7 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.85 0)
+          (xy 0.85 1.69)
+          (xy -0.85 1.69)
+          (xy -0.85 0)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 466527c8-9551-41dd-99f3-96bd3308ba52))
+  (pad "4" smd custom (at -3.81 3.81 270) (size 1.7 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.85 0)
+          (xy 0.85 1.69)
+          (xy -0.85 1.69)
+          (xy -0.85 0)
+        )
+        (width 0) (fill yes))
+    ) (tstamp d3249133-9430-4c26-aff1-7e1fdd2ec348))
+  (pad "5" smd custom (at 3.81 3.81 90) (size 1.7 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.85 0)
+          (xy 0.85 1.69)
+          (xy -0.85 1.69)
+          (xy -0.85 0)
+        )
+        (width 0) (fill yes))
+    ) (tstamp a1affd33-f424-4bbb-8651-eb030ccdad1c))
+  (pad "6" smd custom (at 3.81 1.27 90) (size 1.7 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.85 0)
+          (xy 0.85 1.69)
+          (xy -0.85 1.69)
+          (xy -0.85 0)
+        )
+        (width 0) (fill yes))
+    ) (tstamp fbf7f97d-e536-419f-9e69-b01d82faacfa))
+  (pad "7" smd custom (at 3.81 -1.27 90) (size 1.7 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.85 0)
+          (xy 0.85 1.69)
+          (xy -0.85 1.69)
+          (xy -0.85 0)
+        )
+        (width 0) (fill yes))
+    ) (tstamp a9f60705-4aae-4ffb-838b-a58908456bc6))
+  (pad "8" smd custom (at 3.81 -3.81 90) (size 1.7 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.85 0)
+          (xy 0.85 1.69)
+          (xy -0.85 1.69)
+          (xy -0.85 0)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 1bd66700-6c3f-4b62-9668-f4152afe298e))
+)
