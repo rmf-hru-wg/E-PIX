@@ -18,15 +18,15 @@
     "selection_filter": {
       "dimensions": false,
       "footprints": false,
-      "graphics": false,
-      "keepouts": true,
-      "lockedItems": true,
+      "graphics": true,
+      "keepouts": false,
+      "lockedItems": false,
       "otherItems": false,
-      "pads": false,
+      "pads": true,
       "text": true,
       "tracks": false,
-      "vias": false,
-      "zones": false
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       0,
@@ -64,7 +64,7 @@
       35,
       36
     ],
-    "visible_layers": "800d0bf_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "ControlBoard_1.kicad_prl",
+    "filename": "E-PIX.kicad_prl",
     "version": 3
   },
   "project": {
