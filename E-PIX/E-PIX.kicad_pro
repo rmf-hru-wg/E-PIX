@@ -528,7 +528,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "E-PIX.dsn",
       "step": "ControlBoard_1.step",
       "svg": "",
       "vrml": ""
