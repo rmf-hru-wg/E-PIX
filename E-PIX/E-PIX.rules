@@ -1,0 +1,123 @@
+
+(rules PCB E-PIX.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute off)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 2.2)
+      (against_preferred_direction_trace_costs 4.8)
+    )
+    (layer_rule In1.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.4)
+    )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.6)
+    )
+    (layer_rule In3.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.4)
+    )
+    (layer_rule In4.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 2.2)
+      (against_preferred_direction_trace_costs 4.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clearance 200.0)
+    (clearance 125.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+  )
+  (padstack "Via[0-5]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In3.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In4.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-5]_800:400_um" "Via[0-5]_800:400_um" default
+  )
+  (via 
+    "Via[0-5]_800:400_um-kicad_default" "Via[0-5]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-5]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-5]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu In3.Cu In4.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    VDD GND VSS +3V3 +5V /EN /SW "Net-(D1-A)"
+    "Net-(D5-A)" "Net-(D7-K)" /led "/RGB_led" /D+ "Net-(J1-CC2)" "Net-(J1-CC1)" "/D-"
+    "unconnected-(J1-SBU1-PadA8)" "unconnected-(J1-SBU2-PadB8)" /CLK "unconnected-(J2-DAT1-Pad8)" /MOSI /CS /MISO "unconnected-(J2-DAT2-Pad1)"
+    /RTS /BOOT /DTR "Net-(Q2-B)" "/ICS1_3V3" "/ICS1_5V" "/ICS2_5V" "/ICS2_3V3"
+    "/EN_Power" /TX0 /RX0 /SCL /EN1 /RX2 /TX1 /EN2
+    /TX2 /SDA "/BNO_RST" /RX1 "Net-(U9-USBDM)" "Net-(U9-USBDP)" "Net-(D4-K)" "unconnected-(D6-DOUT-Pad2)"
+    "Net-(D8-K)" "Net-(D9-K)" /SWA "Net-(Q1-G)" "Net-(Q3-B)" "Net-(U4-IN)" "Net-(U4-IS)" "unconnected-(U1-VOUT-Pad8)"
+    "unconnected-(U1-INT-Pad6)" "unconnected-(U9-~{CTS}-Pad9)" "unconnected-(U9-~{DSR}-Pad7)" "unconnected-(U9-CBUS1-Pad17)" "unconnected-(U9-~{RI}-Pad5)" "unconnected-(U9-CBUS2-Pad10)" "unconnected-(U9-CBUS3-Pad19)" "unconnected-(U9-~{DCD}-Pad8)"
+    "unconnected-(U9-~{RESET}-Pad14)" "unconnected-(U9-CBUS0-Pad18)" "unconnected-(U10-IO21-Pad23)" "unconnected-(U10-IO40-Pad33)" "unconnected-(U10-IO46-Pad16)" "unconnected-(U10-IO5-Pad5)" "unconnected-(U10-IO36-Pad29)" "unconnected-(U10-IO4-Pad4)"
+    "unconnected-(U10-IO1-Pad39)" "unconnected-(U10-IO37-Pad30)" "unconnected-(U10-IO41-Pad34)" "unconnected-(U10-IO2-Pad38)" "unconnected-(U10-IO39-Pad32)" "unconnected-(U10-IO42-Pad35)" "unconnected-(U10-IO14-Pad22)" "unconnected-(U10-IO6-Pad6)"
+    "unconnected-(U10-IO15-Pad8)" "unconnected-(U10-IO35-Pad28)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu In3.Cu In4.Cu B.Cu)
+    )
+  )
+)
