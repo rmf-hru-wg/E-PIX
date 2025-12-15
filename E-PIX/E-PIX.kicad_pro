@@ -527,7 +527,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "plot",
       "pos_files": "",
       "specctra_dsn": "E-PIX.dsn",
       "step": "ControlBoard_1.step",
