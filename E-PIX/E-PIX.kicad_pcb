@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 4.69)
+		(thickness 1.6)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -71,8 +71,8 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 2"
-				(type "prepreg")
-				(thickness 2.08)
+				(type "core")
+				(thickness 0.535)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -95,7 +95,7 @@
 			(layer "dielectric 4"
 				(type "core")
 				(color "Polyimide")
-				(thickness 2.08)
+				(thickness 0.535)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -2584,7 +2584,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "94694927-d591-4d66-9dd5-34d74dd3fa45")
+			(uuid "e6efcef5-6850-4f80-b8d4-f71b40f52cad")
 		)
 		(pad "11" smd rect
 			(at 4.325 -7.725 270)
@@ -2593,7 +2593,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "94694927-d591-4d66-9dd5-34d74dd3fa45")
+			(uuid "ff97d5ba-c7e4-4374-8fc2-ed8ea7eef0dc")
 		)
 		(pad "11" smd rect
 			(at 6.675 7.375 270)
@@ -2602,7 +2602,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "94694927-d591-4d66-9dd5-34d74dd3fa45")
+			(uuid "9a190d8e-7d70-495d-b00a-f43899ee2a92")
 		)
 		(zone
 			(net 0)
@@ -3975,7 +3975,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "00a7f82c-a928-43e0-8a62-d760ecd3673f")
+			(uuid "32a47c3e-d94a-45ab-89a1-2d3c522ffa47")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105 90)
@@ -3987,7 +3987,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "00a7f82c-a928-43e0-8a62-d760ecd3673f")
+			(uuid "6bad6e94-a1fb-4555-906d-a7f7b6b8bbe9")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 90)
@@ -3999,7 +3999,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "00a7f82c-a928-43e0-8a62-d760ecd3673f")
+			(uuid "aa5213af-46bf-4348-8cf3-dc9c426e5616")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_XKB_U262-16XN-4BVC11.wrl"
@@ -5919,7 +5919,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "4d1be169-dd31-4d51-b4dd-7a5d84fb6f0f")
+			(uuid "9a9c599b-1678-4af1-996b-c32e7666d354")
 		)
 		(pad "41" smd rect
 			(at -2.9 0.86 180)
@@ -5928,7 +5928,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "4d1be169-dd31-4d51-b4dd-7a5d84fb6f0f")
+			(uuid "299332b2-1feb-43bd-9a88-5f6b2f29b80c")
 		)
 		(pad "41" smd rect
 			(at -1.5 -1.94 180)
@@ -5937,7 +5937,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "4d1be169-dd31-4d51-b4dd-7a5d84fb6f0f")
+			(uuid "bb439534-7148-4f9e-b5c5-aa6f57954fc5")
 		)
 		(pad "41" smd rect
 			(at -1.5 -0.54 180)
@@ -5946,7 +5946,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "4d1be169-dd31-4d51-b4dd-7a5d84fb6f0f")
+			(uuid "6dbde408-5d1e-474f-8710-d32871419727")
 		)
 		(pad "41" smd rect
 			(at -1.5 0.86 180)
@@ -5955,7 +5955,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "4d1be169-dd31-4d51-b4dd-7a5d84fb6f0f")
+			(uuid "71b4a616-8b1f-4c00-9233-d557602b8ad3")
 		)
 		(pad "41" smd rect
 			(at -0.1 -1.94 180)
@@ -5964,7 +5964,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "4d1be169-dd31-4d51-b4dd-7a5d84fb6f0f")
+			(uuid "22eff164-8cf9-4f0a-96f9-5ffde6c28bfb")
 		)
 		(pad "41" smd rect
 			(at -0.1 -0.54 180)
@@ -5973,7 +5973,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "4d1be169-dd31-4d51-b4dd-7a5d84fb6f0f")
+			(uuid "f11336f5-8ccc-4a28-b1e8-f987c3152efa")
 		)
 		(pad "41" smd rect
 			(at -0.1 0.86 180)
@@ -5982,7 +5982,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "4d1be169-dd31-4d51-b4dd-7a5d84fb6f0f")
+			(uuid "92d37435-bce4-4538-8891-bcbd6bd53b76")
 		)
 		(embedded_fonts no)
 		(model "${ESPRESSIF_3DMODELS}/ESP32-S3-WROOM-1.STEP"
@@ -6136,7 +6136,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "10e7ddd1-c2b5-42e5-a545-2913c2bad558")
+			(uuid "b70ae100-5ec1-4018-8307-6090f94e0608")
 		)
 		(pad "1" thru_hole rect
 			(at 5.08 0 180)
@@ -6147,7 +6147,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "10e7ddd1-c2b5-42e5-a545-2913c2bad558")
+			(uuid "62b6d02a-ca97-4cac-aa69-5364e1554075")
 		)
 		(pad "1" thru_hole rect
 			(at 7.62 0 180)
@@ -6158,7 +6158,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "10e7ddd1-c2b5-42e5-a545-2913c2bad558")
+			(uuid "491eb30c-c0e6-4a52-bbe4-080246e3c06c")
 		)
 		(pad "2" thru_hole oval
 			(at 0 2.54 180)
@@ -6180,7 +6180,7 @@
 			(net 4 "VSS")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "06073ff6-7596-4c92-b987-6f77558db412")
+			(uuid "bbc160db-d8f3-452c-87c5-313a79d5c39f")
 		)
 		(pad "2" thru_hole oval
 			(at 5.08 2.54 180)
@@ -6191,7 +6191,7 @@
 			(net 4 "VSS")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "06073ff6-7596-4c92-b987-6f77558db412")
+			(uuid "a6e334f7-dede-478b-b7bb-3dd404dbcddd")
 		)
 		(pad "2" thru_hole oval
 			(at 7.62 2.54 180)
@@ -6202,7 +6202,7 @@
 			(net 4 "VSS")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "06073ff6-7596-4c92-b987-6f77558db412")
+			(uuid "d90ab79c-5521-4397-836d-1518b663d246")
 		)
 		(pad "3" thru_hole oval
 			(at 0 5.08 180)
@@ -6224,7 +6224,7 @@
 			(net 30 "/ICS1_5V")
 			(pinfunction "ICS")
 			(pintype "passive")
-			(uuid "f2cf1385-485b-4689-9bad-0019c6cd2d2f")
+			(uuid "aa5a7e55-11c4-42c2-ba34-b1dba31bd793")
 		)
 		(pad "3" thru_hole oval
 			(at 5.08 5.08 180)
@@ -6235,7 +6235,7 @@
 			(net 30 "/ICS1_5V")
 			(pinfunction "ICS")
 			(pintype "passive")
-			(uuid "f2cf1385-485b-4689-9bad-0019c6cd2d2f")
+			(uuid "8ac3165f-4ecb-49be-b9a2-89681d35d225")
 		)
 		(pad "3" thru_hole oval
 			(at 7.62 5.08 180)
@@ -6246,7 +6246,7 @@
 			(net 30 "/ICS1_5V")
 			(pinfunction "ICS")
 			(pintype "passive")
-			(uuid "f2cf1385-485b-4689-9bad-0019c6cd2d2f")
+			(uuid "67123ef5-33ff-4e3e-bdb5-a58c578713fb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
@@ -7560,7 +7560,7 @@
 			(net 2 "+3V3")
 			(pinfunction "VO")
 			(pintype "power_out")
-			(uuid "354156d8-23cb-49ba-8c74-e1b52bf73fe5")
+			(uuid "8e087c21-d1bd-477e-a6e3-be01af7cd3aa")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3 90)
@@ -8716,7 +8716,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "4c979890-5068-4b47-920c-638bfe838f83")
+			(uuid "be472269-2993-49f2-8c64-990c43a3230b")
 		)
 		(pad "2" thru_hole oval
 			(at 0 2.54)
@@ -8738,7 +8738,7 @@
 			(net 4 "VSS")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "36796bf0-c617-450d-abcc-6ab608db645a")
+			(uuid "52223d02-1a37-4aa3-8a68-45db6ad343f0")
 		)
 		(pad "3" thru_hole oval
 			(at 0 5.08)
@@ -8760,7 +8760,7 @@
 			(net 31 "/ICS2_5V")
 			(pinfunction "ICS")
 			(pintype "passive")
-			(uuid "d0f66c62-2db3-46fe-a0f0-e0e2ad596216")
+			(uuid "0f1071ff-c9ec-4a46-aa48-93eafdbc9246")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
@@ -12313,7 +12313,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "373f0109-e9dc-47a9-ae94-86eba73b2670")
+			(uuid "421c5e42-cce2-4b78-9f38-6bc41d7c5c40")
 		)
 		(pad "2" smd rect
 			(at 2.075 -1.075 180)
@@ -12333,7 +12333,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "043d8d47-06f2-471d-b64c-76e6314c5ee3")
+			(uuid "ec657e8f-0933-4aa6-923b-1dc6ebe608a2")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/hibik/Documents/Robomech/HR/E-PIX/ExternalLib/Switch/SKRPACE010.stp"
@@ -16483,7 +16483,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "2844afb4-e57f-4508-be63-bd327243833b")
+			(uuid "480d357e-921e-485d-9566-a3eaed4fcc79")
 		)
 		(pad "2" smd rect
 			(at 2.075 -1.075 180)
@@ -16503,7 +16503,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "830a992c-fb5a-4b8f-b7fd-0cd98dde55d2")
+			(uuid "edee46f2-3fd8-45a2-8bcb-5cca7d44ca36")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/hibik/Documents/Robomech/HR/E-PIX/ExternalLib/Switch/SKRPACE010.stp"
