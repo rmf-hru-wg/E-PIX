@@ -11990,7 +11990,7 @@
 		(fields_autoplaced yes)
 		(uuid "42db975a-4531-4c31-8cf8-8e87ca0a316a")
 		(property "Reference" "U9"
-			(at 193.9641 24.13 0)
+			(at 193.9133 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +11999,7 @@
 			)
 		)
 		(property "Value" "FT231XS"
-			(at 193.9641 26.67 0)
+			(at 193.9133 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
