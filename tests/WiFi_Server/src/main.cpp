@@ -51,8 +51,9 @@ void loop() {
             }
         }
 
-        delay(1);
+        delay(5000);
         client.stop();
         Serial.println("client disconnected");
+        neopixelWrite(RGB_BUILTIN, 155, 0, 0);
     }
 }
