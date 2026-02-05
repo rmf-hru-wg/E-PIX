@@ -2,7 +2,7 @@
 #include <IcsBaseClass.h>
 #include <IcsHardSerialClass.h>
 
-#define ICS_BAUDRATE 115200
+#define ICS_BAUDRATE 1250000
 #define ICS_TIMEOUT 10
 
 #define myEN1 8
@@ -24,10 +24,10 @@ void setup() {
 void loop() {
     krs2.setPos(1,7500);
     delay(1000);
-    krs2.setPos(1,5500);
+    krs2.setPos(1,7000);
     delay(1000);
     krs2.setPos(1,7500);
     delay(1000);
-    krs2.setPos(1,9500);
+    krs2.setPos(1,8000);
     delay(1000);
 }
